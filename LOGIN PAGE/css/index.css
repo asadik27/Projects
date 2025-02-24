@@ -1,0 +1,130 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.l-side{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+
+
+}
+::placeholder{
+    color: black;
+}
+input{
+    max-width: 300px;
+    max-height: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    background-color: rgb(110, 108, 108);
+}
+input:hover{
+    transform: scale(1.09, 1.09);
+
+}
+input:focus+label{
+    transform: translateY(-25px);
+    color: blue;
+}
+.r-btn{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    max-height: 100px;
+    text-decoration: none;
+    background-color: rgb(48, 48, 163);
+    color: white;
+    margin-top: 10px;
+}
+.r-btn a{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+button:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(60, 60, 192);
+}
+#ttx{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+img:hover{
+    transform: scale(1.1, 1.1);
+}
+.im{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.r-side{
+    background-color: rgb(48, 48, 163);
+    border: 1px solid rgb(48, 48, 163);
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    width: 100vw;
+    height: 100vh;
+    float: left;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+    margin-top: 30%;
+    font-size: 38px;
+}
+.r{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.l-btn{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 200px;
+    max-height: 100px;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    background-color: rgb(48, 48, 163);
+    margin-top: 20px;
+}

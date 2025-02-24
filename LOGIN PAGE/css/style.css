@@ -1,0 +1,129 @@
+.main2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.left{
+    background-color: rgb(48, 48, 163);
+    border: 1px solid rgb(48, 48, 163);
+    width: 100%;
+    margin-left: 0%;
+    height: 100vh;
+    border-top-right-radius:70px;
+    border-bottom-right-radius: 70px;
+    float: left;
+}
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    font-size: 38px;
+    font-family: sans-serif;
+}
+.tx{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.regit-btn{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    background-color: rgb(48, 48, 163);
+    color: white;
+    margin-top: 10px;
+    margin-left: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(60, 60, 192);
+    font-weight: 400;
+}
+button{
+    transition: width 1s;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ............. */
+.right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 100px;
+    float: left;
+    font-family: sans-serif;
+}
+.h{
+    font-size: 54px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h:hover{
+    transform: scaleX(1.1);
+    text-shadow: 1px 2px rgb(128, 126, 124);
+}
+::placeholder{
+    color: black;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: rgb(145, 140, 140);
+    font-family: sans-serif;
+}
+input:hover{
+    transform: scale(1.09, 1.09);
+}
+.fp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fp:hover{
+    transform: scale(1.1 ,1.1);
+}
+.oo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.sacc{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img:hover{
+    transform: scale(1.1, 1.1);
+}
